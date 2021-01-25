@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+     <head>
+          <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+          <title>Tony's Trip</title>
+          <link type="text/css" rel="stylesheet" href="journal.css" />
+     </head>
+
+     <body>
+               <h1>Segway'n USA</h1>
+               <p>Documenting Tony's Trip around the US on Segway.</p>
+          <div id="form">
+               <form action="" method="post">
+               <table>
+                    <tr>
+                         <th>Choose your beans:</th>
+                         <td>
+                              <select name="beans" multiple="multiple">
+                                        <option value="House Blend">House Blend</option>
+                                        <option value="Bolivia">Shade Grown Bolivia Supremo</option>
+                                        <option value="Guatemala">Organic Guatemala</option>
+                                        <option value="Kenya">Kenya</option>
+                              </select>
+                         </td>
+                    </tr>  
+                    <tr>
+                         <th>Type:</th> 
+                         <td>
+                              <input type="radio" name="beantype" value="whole" id="whole" /><label for="whole">bean</label> &nbsp;&nbsp;
+                              <input type="radio" name="beantype" value="ground" checked id="ground" /><label for="ground">Ground </label>
+                         </td>             
+                    </tr>
+                    <tr>
+                         <th>Extras:</th>
+                         <td>
+                              <input type="checkbox" name="extras[]" value="giftwrap" /> Gift wrap &nbsp;&nbsp;
+                              <input type="checkbox" name="extras[]" value="catalog" checked="checked" /> Included
+                         </td>
+                    </tr> 
+                    <tr>
+                         <th>Teste:</th>
+                         <td>
+                              <fieldset>
+                                   <legend>Condiments</legend>
+                                   <input type="checkbox" name="spice" value="Salt" /> Salt <br />
+                                   <input type="checkbox" name="spice" value="Pepper" /> Pepper <br />
+                                   <input type="checkbox" name="spice" value="Garlic" /> Garlic <br />
+                              </fieldset>
+                         </td>
+                    </tr> 
+                    <tr>       
+                         <th>Ship to:</th>
+                         <td>
+                              <table>
+                                   <tr>                                                                  
+                                   <th>Name:</th>
+                                        <td><input type="text" name="name" /></td>
+                                   </tr> 
+                                   <tr>
+                                   <th>Address:</th>
+                                        <td><input type="password" name="address" /></td>
+                                   </tr>
+                                   <tr>
+                                   <th>City:</th>
+                                        <td><input type="text" name="city" /></td>
+                                   </tr>
+                                   <tr>
+                                   <th>State:</th>
+                                        <td><input type="text" name="state" /></td>
+                                   </tr>
+                                   <tr>
+                                   <th>Zip:</th>
+                                        <td><input type="text" name="zip" /></td>
+                                   </tr>
+                              </table> 
+                         </td> 
+                    </tr>  
+                    <tr>
+                         <th>Customer Comments:</th>
+                              <td><textarea name="comments" rows="10" cols="48"></textarea></td>
+                    </tr>
+                    <tr>
+                         <th>Get into the Starbuzz:</th>
+                         <td><input type="submit" value="Right Now" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" name="doc" /></td>
+                    </tr>
+               </table>                  
+               </form>
+          </div>
+               <h2>August 20,2005</h2>
+               <p>well I've made it 1200 miles already, and I passed throught some intersting places on the way:</p>
+                    <ul>
+                         <li>Walla Walla, WA</li>
+                         <li>Magic City, ID</li>
+                         <li>Bountiful, UT</li>
+                         <li>Last Chance, CO</li>
+                         <li>Why, AZ</li>
+                         <li>Truth or Consequences, NM</li>
+                    </ul>
+          <div id="tab">
+               <table summary="This table holds data about the cities I visited on my travels. I've included the date was in each city, 
+                              the temperature when I was there, and altitude and population of each city. 
+                              I've also included a rating of the diners where I had lunch, on a scale from 1 to 5.">
+                    <caption>
+                         The cities I visited on my Segway'n USA travels
+                    </caption>
+                         <tr>
+                              <th>City</th>
+                              <th>Date</th>
+                              <th>Temperature</th>
+                              <th>Altitude</th>
+                              <th>Population</th>
+                              <th>Diner Rating</th>
+                         </tr>
+                         <tr>
+                              <td>Walla Walla, WA</td>
+                              <td class="c">June 15th</td>
+                              <td class="c">75</td>
+                              <td class="r">1204</td>
+                              <td class="r">29686</td>
+                              <td class="c">4/5</td>
+                         </tr>
+                         <tr class="cellcolor">
+                              <td>Magic City, ID</td>
+                              <td class="c">June 25th</td>
+                              <td class="c">74</td>
+                              <td class="r">5312</td>
+                              <td class="r">50</td>
+                              <td class="c">3/5</td>
+                         </tr>
+                         <tr>
+                              <td rowspan="2">Truth or Consequences, NM</td>
+                              <td class="c">August 9th</td>
+                              <td class="c">93</td>
+                              <td rowspan="2" class="r">4242 ft</td>
+                              <td rowspan="2" class="r">7289</td>
+                              <td class="c">5/5</td>
+                         </tr>  
+                         <tr>
+                              <td class="c">August 27th</td>
+                              <td class="c">98</td>
+                              <td >
+                                   <table>
+                                        <tr>
+                                             <th>Tess</th>
+                                             <td>5/5</td>
+                                        </tr>
+                                        <tr>
+                                             <th>Tony</th>
+                                             <td>4/5</td>
+                                        </tr>
+                                   </table>
+                              </td>
+                         </tr>                              
+               </table>
+          </div>
+               <h2>July 30,2006</h2>
+                    <p>I saw some Burma Shave style sings on the side of the road today:</p>
+                    <blockquote>
+                         <p>
+                              Passing cars,<br />
+                              When you can't see,<br />
+                              May get you,<br />
+                              A glimpse,<br />
+                              Of eternity.
+                         </p>
+                    </blockquote>
+                    <p>I definitely won't be passing any cars.</p>
+                    <h2>June 2,2007</h2>
+                    <p>
+                         <q>Never afraid of Misty.</q><br />
+                         <q>Always walk into the Misty.</q><br /><br />
+                    
+                         <a href="../index.html#chai">back to Starbuzz</a> 
+                         <br />
+                    </p>
+                    <p>
+                         <img src="../images/1.jpg" alt="Mocha" /> 
+                    </p>  
+
+          <script src="journal.js"></script>   
+               
+     </body>
+</html>
