@@ -34,12 +34,12 @@ h2 {
 }
 
 #guarantee {
-    font: italic /1.9em Georgia, "Time New Roman", Times, serif;
+    /* font: italic /1.9em Georgia, "Time New Roman", Times, serif; */
     color: #444444;
     border: white 1px dashed;
     padding: 25px 50px 25px 150px;
     margin: 30px 10px 30px 150px;
-    background: url(images/coffee.png) no-repeat center center silver;
+    background: url(images/coffee.png) no-repeat center center #d2b48c;
     background-size: contain;
 }
 
