@@ -1,70 +1,87 @@
-body  {
-               background-color: #d2b48c;              
-               padding: 25px;
-               font: medium/1.6em Verdana, Helvetica, Arial, sans-serif;
-            }
+body {
+    background-color: #d2b48c;
+    padding: 25px;
+    font: medium/1.6em Verdana, Helvetica, Arial, sans-serif;
+}
+
 #allcontent {
-               width:      850px;
-               padding: 5px 0px 5px 0px;
-               background-color: #d2b47c;
-               margin-left: auto;
-               margin-right: auto;
-                  }
+    width: 850px;
+    padding: 5px 0px 5px 0px;
+    background-color: #d2b47c;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 p {
-               color: gray;
-   }
+    color: gray;
+}
+
 p.greentea {
-               color: green;
-            }
-h1, h2 {
-               color: maroon;
-       }
-h1 {
-               font-size: 200%;
-      }
+    color: green;
+}
+
+h1,
 h2 {
-               font-size: 150%;  
-      }
+    color: maroon;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
 #guarantee {
-               font: italic /1.9em Georgia, "Time New Roman", Times, serif;
-               color: #444444;
-               border: white 1px dashed;
-               padding: 25px 50px 25px 150px;
-               margin: 30px 10px 30px 150px;
-               background: url(images/coffee.png) no-repeat center silver;
-               background-size: 100% 100%;                                   
-                   }
+    font: italic /1.9em Georgia, "Time New Roman", Times, serif;
+    color: #444444;
+    border: white 1px dashed;
+    padding: 25px 50px 25px 150px;
+    margin: 30px 10px 30px 150px;
+    background: url(images/coffee.png) no-repeat center center silver;
+    background-size: contain;
+}
+
 #drink {
-               margin: 10px 10px 10px 10px;
-            }
+    margin: 10px 10px 10px 10px;
+}
+
 #elixirs {
-               border: thin solid #007e7e;
-               width: 200px;
-               padding: 0px 20px 20px 20px;
-               text-align: center;
-               background: url(images/bear.jpg) repeat-y;
-               line-height: 1;
-               float: right;
-             }
-#elixirs h2{
-               color: black;
-                 }
+    border: thin solid #007e7e;
+    width: 200px;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+    background: url(images/bear.jpg) repeat-y;
+    line-height: 1;
+    float: right;
+}
+
+#elixirs h2 {
+    color: black;
+}
+
 #elixirs h3 {
-               color: #d12c47;
-                  }
+    color: #d12c47;
+}
+
 .cd {
-               font-style: italic;
-      }
+    font-style: italic;
+}
+
 .artist {
-               font-weight: bold;
-           }
+    font-weight: bold;
+}
+
 #elixirs a:link {
-               color: #007e7e;
-                      }
+    color: #007e7e;
+}
+
 #elixirs a:visited {
-               color: #333333;
-                      }
+    color: #333333;
+}
+
 #elixirs a:hover {
-               background: #f88396;
-               color: #0d5353;
-                      }
+    background: #f88396;
+    color: #0d5353;
+}
